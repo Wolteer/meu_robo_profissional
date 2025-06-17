@@ -3,7 +3,7 @@ name: Execução Diária do Robô
 on:
   schedule:
     - cron: '0 10 * * *'
-  worflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   executar:
